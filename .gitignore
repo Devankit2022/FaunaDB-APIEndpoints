@@ -2,4 +2,11 @@ node_modules
 
 .env
 
+kubernetes
 logs.txt
+
+.dockerignore
+Dockerfile
+
+.prettierignore
+.prettierrc

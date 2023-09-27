@@ -4,6 +4,99 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>devAnkit-faunaDB-api</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;&display=swap"
+			rel="stylesheet"
+		/>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+			}
+			body {
+				font-family: "Manrope", sans-serif;
+				background-color: bisque;
+			}
+			ul {
+				list-style: none;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+			}
+			li {
+				margin: 5px;
+			}
+			span {
+				color: red;
+			}
+		</style>
 	</head>
-	<body></body>
+	<body>
+		<h1 style="text-align: center; margin-top: 10px">
+			Hello From Ankit Kumar Mondal
+		</h1>
+		<div
+			style="
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				margin: 10px;
+			"
+		>
+			<h3 style="margin: 10px">API EndPoints :</h3>
+			<h4 style="margin-top: 10px">HTTP <span>GET</span> method</h4>
+			<ul>
+				<li>
+					<strong>/customer</strong> - get complete details of all
+					Customers.
+				</li>
+				<li>
+					<strong>/manager</strong> - get complete details of Manager.
+				</li>
+				<li>
+					<strong>/order</strong> - get complete details of all
+					Orders.
+				</li>
+				<li>
+					<strong>/product</strong> - get complete details of all
+					Products.
+				</li>
+				<li>
+					<strong>/store</strong> - get complete etails of all Stores.
+				</li>
+			</ul>
+			<h4 style="margin-top: 20px">
+				HTTP <span>POST</span> method (use postman)
+			</h4>
+			<ul>
+				<li>
+					<strong>/customer</strong> - create a document in Customer
+					collection using JSON data.
+				</li>
+			</ul>
+			<h4 style="margin-top: 20px">
+				HTTP <span>PUT</span> method (use postman)
+			</h4>
+			<ul>
+				<li>
+					<strong>/customer</strong> - update the data of a document
+					in Customer collection, using JSON data , you need to pass
+					the document id in the url.
+				</li>
+			</ul>
+			<h4 style="margin-top: 20px">
+				HTTP <span>DELETE</span> method (use postman)
+			</h4>
+			<ul>
+				<li>
+					<strong>/customer</strong> - delete a document in Customer
+					collection, you need to pass the document id in the url.
+				</li>
+			</ul>
+		</div>
+	</body>
 </html>
