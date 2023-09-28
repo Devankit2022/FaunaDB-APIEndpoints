@@ -57,7 +57,7 @@ Designed and implemented API endpoints for seamless data access on a Fauna datab
 
 6.  **OR** Open terminal and `cd` to project root directory and run
 
-        docker-compose -f compose.yaml up
+        docker compose -f compose.yaml up
 
 7.  Website will be live at `localhost:3000`
 
