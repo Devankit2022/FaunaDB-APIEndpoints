@@ -1,0 +1,7 @@
+services:
+  my-container:
+    image: devankit2022/devankit-faundadb-api:0.0.2.RELEASE
+    ports:
+      - "3000:3000"
+    environment:
+      - FAUNA_SECRET_KEY=env-varible
