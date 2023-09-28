@@ -45,9 +45,9 @@ Designed and implemented API endpoints for seamless data access on a Fauna datab
 
 1.  Install Docker following this [documentation](https://docs.docker.com/get-docker/)
 
-2.  Create a account on [Docker Hub](https://hub.docker.com/)
+2.  Create an account on [Docker Hub](https://hub.docker.com/)
 
-3.  Start Docker Desktop App
+3.  Start **Docker Desktop App**
 
 4.  You need my `FAUNA_SECRET_KEY`, so mail me at `devankit2022@gmail.com`
 
